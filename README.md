@@ -55,6 +55,6 @@ Inspired by [Xilem](https://github.com/linebender/xilem), [Leptos](https://githu
 - **Performance**: The view tree is only run once, safeguarding you from accidentally creating a bottleneck in a view generation function that slows down your entire application. Floem also provides tools to help you write efficient UI code, such as a [virtual list](https://github.com/lapce/floem/tree/main/examples/virtual_list).
 - **Flexbox layout**: Using [Taffy](https://crates.io/crates/taffy), the library provides the Flexbox (or Grid) layout system, which can be applied to any View node.
 - **Customizable widgets**: Don't want the default look? You can change pretty much anything you want using the styling API, or install a third-party theme.
-- **Element inspector**: Inspired by your browser's developer tools, Floem provides a [diagnostic tool](https://lapce.dev/floem/floem/id/struct.Id.html#method.inspect) to debug your layout.
+- **Element inspector**: Inspired by your browser's developer tools, Floem provides a [diagnostic tool](https://lapce.dev/floem/floem/struct.ViewId.html) to debug your layout.
 
 
