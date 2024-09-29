@@ -3,7 +3,6 @@ use floem::{
     keyboard::{Key, NamedKey},
     kurbo::Size,
     new_window,
-    style::FontSize,
     taffy::AlignContent,
     views::{button, container, h_stack, label, v_stack, Decorators},
     window::WindowConfig,
