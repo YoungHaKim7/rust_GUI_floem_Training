@@ -79,7 +79,7 @@ pub fn app() -> impl IntoView {
         });
 
     let id = view.id();
-    view.on_key_up(Key::Named(NamedKey::F11), Modifiers::empty(), move |_| {
+    view.on_key_up(Key::Named(NamedKey::F5), Modifiers::empty(), move |_| {
         id.inspect()
     })
 }

@@ -58,3 +58,10 @@ Inspired by [Xilem](https://github.com/linebender/xilem), [Leptos](https://githu
 - **Element inspector**: Inspired by your browser's developer tools, Floem provides a [diagnostic tool](https://lapce.dev/floem/floem/struct.ViewId.html) to debug your layout.
 
 
+# diagnostic tool(`ViewID`)
+```rs
+    let id = view.id();
+    view.on_key_up(Key::Named(NamedKey::F5), Modifiers::empty(), move |_| {
+        id.inspect()
+    })
+```
