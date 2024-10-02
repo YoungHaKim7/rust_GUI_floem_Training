@@ -40,6 +40,29 @@ impl ViewSwitcher {
     }
 }
 
+fn view_two(view: RwSignal<ViewSwitcher>) -> impl IntoView {
+    v_stack((
+        "Another view",
+        button("Switch back").action(move || view.set(ViewSwitcher::One)),
+    ))
+    .style(|s| {
+        s.column_gap(10.0)
+            .size(150, 100)
+            .items_center()
+            .justify_center()
+            .border(1)
+            .border_radius(5)
+    })
+}
+
+fn box_shadow() -> Style {
+    Style::new()
+        .box_shadow_color(Color::BLACK.with_alpha_factor(0.7))
+        .box_shadow_h_offset(3)
+        .box_shadow_v_offset(3.)
+        .box_shadow_blur(1.5)
+}
+
 pub fn app_view() -> impl IntoView {
     let state = RwSignal::new(ViewSwitcher::One);
 
@@ -66,27 +89,4 @@ pub fn app_view() -> impl IntoView {
             .justify_center()
             .gap(20)
     })
-}
-
-fn view_two(view: RwSignal<ViewSwitcher>) -> impl IntoView {
-    v_stack((
-        "Another view",
-        button("Switch back").action(move || view.set(ViewSwitcher::One)),
-    ))
-    .style(|s| {
-        s.column_gap(10.0)
-            .size(150, 100)
-            .items_center()
-            .justify_center()
-            .border(1)
-            .border_radius(5)
-    })
-}
-
-fn box_shadow() -> Style {
-    Style::new()
-        .box_shadow_color(Color::BLACK.with_alpha_factor(0.7))
-        .box_shadow_h_offset(3)
-        .box_shadow_v_offset(3.)
-        .box_shadow_blur(1.5)
 }
