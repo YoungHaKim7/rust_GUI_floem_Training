@@ -25,5 +25,5 @@ pub fn stack_view() -> impl IntoView {
         )).style(|s| s.column_gap(5)),
 
     )
-    .style(|s| s.flex_col().gap( 5).margin_top(10))
+    .style(|s| s.flex_col().gap(5).margin_top(10))
 }
