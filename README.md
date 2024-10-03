@@ -9,7 +9,7 @@ A native Rust UI library with fine-grained reactivity
 
 [![crates.io](https://img.shields.io/crates/v/floem.svg)](https://crates.io/crates/floem)
 [![docs.rs](https://docs.rs/floem/badge.svg)](https://docs.rs/floem)
-[![Discord](https://img.shields.io/discord/946858761413328946?color=%237289DA&label=discord)](https://discord.gg/RB6cRYerXX)
+[![Discord](https://img.shields.io/discord/946858761413328946?color=%237289DA&label=discord)](https://discord.gg/RB6cRYerXX)<a href="https://github.com/lapce/floem"><img alt="githubicon" width="20px" src="https://user-images.githubusercontent.com/67513038/218287708-001511d7-1cce-42d3-92d2-4a61193b38f0.png" /></a>![floemstar](https://img.shields.io/github/stars/lapce/floem.svg)
 
 </div>
 
