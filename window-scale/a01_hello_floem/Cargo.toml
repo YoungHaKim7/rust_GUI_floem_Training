@@ -1,7 +1,0 @@
-[package]
-name = "a01_hello_floem"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-floem = {git = "https://github.com/lapce/floem"}
