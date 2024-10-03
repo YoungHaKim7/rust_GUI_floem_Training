@@ -1,0 +1,10 @@
+[package]
+name = "syntax-editor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+floem = {git = "https://github.com/lapce/floem", features = ["editor"]}
+im = "15.1.0"
+lazy_static = "1.5.0"
+syntect = "5.2.0"

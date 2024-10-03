@@ -1,0 +1,9 @@
+[package]
+name = "flight_booker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+floem = {git = "https://github.com/lapce/floem"}
+strum = { version = "0.26.3", features = ["derive"] }
+time = { version = "0.3.36", features = ["parsing", "macros"] }

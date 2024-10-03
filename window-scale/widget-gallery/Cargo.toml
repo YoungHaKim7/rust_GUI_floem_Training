@@ -1,0 +1,9 @@
+[package]
+name = "widget-gallery"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+floem = { git = "https://github.com/lapce/floem"}
+im = "15.1.0"
+strum = { version = "0.26.3", features = ["derive"] }
