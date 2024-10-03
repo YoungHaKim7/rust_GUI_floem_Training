@@ -1,6 +1,6 @@
-# Result
+# Run
 
 ```bash
-
+trunk serve --open
 ```
 
