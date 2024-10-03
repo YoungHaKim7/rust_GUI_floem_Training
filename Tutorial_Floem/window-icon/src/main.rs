@@ -2,8 +2,7 @@ use std::path::Path;
 
 use floem::{kurbo::Size, window::WindowConfig, Application};
 
-use crate::app::app_view::load_png_svg_icon::load_png_icon;
-use app::app_view::app_view;
+use app::app_view::{app_view, load_png_svg_icon::load_png_icon};
 mod app;
 
 fn main() {
