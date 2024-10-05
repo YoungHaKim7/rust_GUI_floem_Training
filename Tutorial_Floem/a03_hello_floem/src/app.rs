@@ -25,12 +25,7 @@ pub fn app() -> impl IntoView {
                 })
             }),
     )
-        .style(|s| {
-            s.size(100.pct(), 100.pct())
-                .flex_col()
-                .items_center()
-                .justify_center()
-        });
+        .style(|s| s.size(200.pct(), 200.pct()).items_center());
 
     let id = view.id();
     view.on_key_up(Key::Named(NamedKey::F5), Modifiers::empty(), move |_| {
